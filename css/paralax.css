@@ -32,7 +32,7 @@ textarea{
 	max-width: 100%;
 }
 form{
-						
+	margin-left:180px;					
 	background:rgba(0,0,0,0.8);
 	border-radius:10px; 
 	border-width:2px;
@@ -70,7 +70,7 @@ margin-left:120px;
 	width:100%;
 	height:900px;
 	position: relative;
-	background: #2F4F4F;
+	background:rgba(37, 26, 14,0.9);
 	color: rgba(255,255,255,0.7);
 	
 	
@@ -80,7 +80,7 @@ margin-left:120px;
 	width:100%;
 	height:900px;
 
-	background:rgba(0,0,0,0.7);
+	background:rgba(26, 26, 26,0.9);
     
     
 	color:rgba(255,255,255,0.8);
@@ -89,7 +89,7 @@ margin-left:120px;
 	
 	width:100%;
 	height:900px;
-	background:rgba(0,0,0,0.7); 
+	background:rgba(255,255,255,0.2); 
 }
 #misestudios{
 
@@ -189,9 +189,14 @@ margin-left:120px;
 	h3{
 		margin-left:60%;
 	}
+	form{
+		width:110%;
+		margin-left:-20px;
+	}
+
 	#section2{
 		width: 100%;
-		height:1600px;
+		height:1700px;
 
 	}
 	#section3{
@@ -215,13 +220,19 @@ margin-left:120px;
 		margin-left:22%;
 	}
 }
-@media screen and (min-width:482px) and (max-width:780px){
+@media screen and (min-width:481px) and (max-width:780px){
 	.foto{
 		margin-left:20%;
 	}
 	section{
 		margin-left:25%;
 	}
+	form{
+		width:110%;
+		margin-left:-20px;
+	}
+
+
 	#section2{
 		width: 100%;
 		height:1600px;
@@ -245,7 +256,7 @@ margin-left:120px;
 	}
 
 }
-@media screen and (min-width:782px) and (max-width:1200px)
+@media screen and (min-width:781px) and (max-width:1200px)
 {
 	.foto{
 		margin-left:15%;
@@ -253,6 +264,11 @@ margin-left:120px;
 	section{
 		margin-left:32%;
 	}
+	form{
+		width:110%;
+		margin-left:45px;
+	}
+
 	#section2{
 		width: 100%;
 		height:1600px;
