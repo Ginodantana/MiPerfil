@@ -9,7 +9,25 @@
   <link rel="stylesheet" type="text/css" href="css/paralax.css">
 
 	<script type="text/javascript" src="librerias/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript" src="librerias/bootstrap/js/bootstrap.js"></script>	
+	<script type="text/javascript" src="librerias/bootstrap/js/bootstrap.js"></script>
+	<script src="librerias/smooth-scroll.min.js"></script>
+  	<script type="text/javascript">
+   	 var scroll = new SmoothScroll('a[href*="#"]', {
+ 	 // Selectors
+ 	 ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
+ 	 header: null, // Selector for fixed headers (must be a valid CSS selector)
+
+ 	 // Speed & Easing
+ 	 speed: 1000, // Integer. How fast to complete the scroll in milliseconds
+  	offset: 0, // Integer or Function returning an integer. How far to offset the scrolling anchor location in pixels
+  	easing: 'easeInOutCubic', // Easing pattern to use
+ 	 customEasing: function (time) {}, // Function. Custom easing pattern
+
+ 	 // Callback API
+ 	 before: function () {}, // Callback to run before scroll
+ 	 after: function () {} // Callback to run after scroll
+	});
+  </script>
 </head>
 <body data-spy="scroll" data-target="#myNavbar">
 
@@ -25,10 +43,10 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right" rol="tablist">
-	      <li><a href="#section1"><b>Home</b></a></li>
-	      <li><a href="#section2"><b>Sobre mí</b></a></li> 
-	      <li><a href="#section3"><b>Servicios</b></a></li> 
-	      <li><a href="#section4"><b>Contactos</b></a></li> 
+	      <li><a data-scroll href="#section1"><b>Home</b></a></li>
+	      <li><a data-scroll href="#section2"><b>Sobre mí</b></a></li> 
+	      <li><a data-scroll href="#section3"><b>Servicios</b></a></li> 
+	      <li><a data-scroll href="#section4"><b>Contactos</b></a></li> 
       </ul>
 
     </div>
