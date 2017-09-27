@@ -252,6 +252,12 @@ margin-left:120px;
 	.foto2,.foto3{
 		margin-left:22%;
 	}
+	#twiter,#facebook{
+	margin-left:0%;
+	}
+	#wsp{
+	margin-left:8%;
+	}
 }
 @media screen and (min-width:481px) and (max-width:780px){
 	.foto{
