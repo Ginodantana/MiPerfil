@@ -187,6 +187,21 @@ margin-left:120px;
 	color:#FFF;
 	border-style:none;
 }
+#tel{
+	color:white;
+	margin-left:10%;	
+}
+#twiter,#facebook{
+	margin-left:3%;
+}
+#wsp{
+	margin-left:14%;
+}
+#facebook:hover ,#twiter:hover{
+	height:45px;
+	width: 45px;
+	opacity:0.5;
+}
 
 /* Estilo Smarthphone*/
 @media screen and (max-width:480px){
@@ -280,6 +295,9 @@ margin-left:120px;
 		.foto2,.foto3{
 		margin-left:30%;
 	}
+	#wsp{
+	margin-left:25%;
+	}
 
 }
 @media screen and (min-width:781px) and (max-width:1200px)
@@ -315,6 +333,9 @@ margin-left:120px;
 	}	
 		.foto2,.foto3{
 		margin-left:30%;
+	}
+	#wsp{
+	margin-left:25%;
 	}
 
 }
