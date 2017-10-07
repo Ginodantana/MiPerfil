@@ -42,7 +42,8 @@ font-size:1.1em;
 color:white;
 }
 form{
-	margin-left:180px;					
+	width:600px;
+	margin-left:25%;				
 	background:rgba(0,0,0,0.8);
 	border-radius:10px; 
 	border-width:2px;
@@ -192,10 +193,10 @@ margin-left:120px;
 	margin-left:10%;	
 }
 #twiter,#facebook{
-	margin-left:3%;
+	margin-left:8%;
 }
 #wsp{
-	margin-left:14%;
+	margin-left:35%;
 }
 #facebook:hover ,#twiter:hover{
 	height:45px;
@@ -215,13 +216,13 @@ margin-left:120px;
 		margin-left:60%;
 	}
 	form{
-		width:110%;
-		margin-left:-20px;
+		width:88%;
+		margin-left:6%;
 	}
 	
  	li {
  	
-	margin-left:80%;
+	margin-left:70%;
 	border-radius:5px; 
 	border-width:0.5px;
 	border-color:rgba(255,255,255,0.2);
@@ -253,10 +254,10 @@ margin-left:120px;
 		margin-left:22%;
 	}
 	#twiter,#facebook{
-	margin-left:0%;
+	margin-left:5%;
 	}
 	#wsp{
-	margin-left:0%;
+	margin-left:5%;
 	}
 }
 @media screen and (min-width:481px) and (max-width:780px){
@@ -267,8 +268,8 @@ margin-left:120px;
 		margin-left:25%;
 	}
 	form{
-		width:110%;
-		margin-left:-20px;
+		width:84%;
+		margin-left:8%;
 	}
 	li {
  	
@@ -302,7 +303,7 @@ margin-left:120px;
 		margin-left:30%;
 	}
 	#wsp{
-	margin-left:25%;
+	margin-left:35%;
 	}
 
 }
@@ -315,8 +316,8 @@ margin-left:120px;
 		margin-left:32%;
 	}
 	form{
-		width:110%;
-		margin-left:45px;
+		width:70%;
+		margin-left:16%;
 	}
 
 	#section2{
@@ -334,14 +335,21 @@ margin-left:120px;
 	}
 	#web,#pc{
 		width:70%;
-		margin-left:15%;
+		margin-left:16%;
 		margin-top:7%
 	}	
 		.foto2,.foto3{
 		margin-left:30%;
 	}
+	#tel{
+	color:white;
+	margin-left:10%;	
+	}
+	#twiter,#facebook{
+	margin-left:8%;
+	}
 	#wsp{
-	margin-left:25%;
+	margin-left:35%;
 	}
 
 }
